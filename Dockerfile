@@ -1,12 +1,24 @@
-# Tags: latest, 3.3.7-debian-10-r13, 3.3.7, 3-debian-10, 3
+# Tags: latest, 3.3.7-debian-10-r17, 3.3.7, 3-debian-10, 3
 FROM bitnami/phpbb:latest
-FROM bitnami/phpbb:3.3.7-debian-10-r13
+FROM bitnami/phpbb:3.3.7-debian-10-r17
 FROM bitnami/phpbb:3.3.7
 FROM bitnami/phpbb:3-debian-10
 FROM bitnami/phpbb:3
 
 # Tags: _
 FROM bitnami/phpbb:_
+
+# Tags: 3.3.7-debian-10-r16
+FROM bitnami/phpbb:3.3.7-debian-10-r16
+
+# Tags: 3.3.7-debian-10-r15
+FROM bitnami/phpbb:3.3.7-debian-10-r15
+
+# Tags: 3.3.7-debian-10-r14
+FROM bitnami/phpbb:3.3.7-debian-10-r14
+
+# Tags: 3.3.7-debian-10-r13
+FROM bitnami/phpbb:3.3.7-debian-10-r13
 
 # Tags: 3.3.7-debian-10-r12
 FROM bitnami/phpbb:3.3.7-debian-10-r12
@@ -84,18 +96,3 @@ FROM bitnami/phpbb:3.3.5-debian-10-r143
 
 # Tags: 3.3.5-debian-10-r142
 FROM bitnami/phpbb:3.3.5-debian-10-r142
-
-# Tags: 3.3.5-debian-10-r141
-FROM bitnami/phpbb:3.3.5-debian-10-r141
-
-# Tags: 3.3.5-debian-10-r140
-FROM bitnami/phpbb:3.3.5-debian-10-r140
-
-# Tags: 3.3.5-debian-10-r139
-FROM bitnami/phpbb:3.3.5-debian-10-r139
-
-# Tags: 3.3.5-debian-10-r138
-FROM bitnami/phpbb:3.3.5-debian-10-r138
-
-# Tags: 3.3.5-debian-10-r137
-FROM bitnami/phpbb:3.3.5-debian-10-r137
